@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Postage Form</title>
+</head>
+<body>
+	<h1>Postage Form</h1> <br/>
+	<form action="/price" method="get">
+		<div> Weight: <input type="number" step="0.1" name="weight"> </div> <br/>
+		<div>
+			<select name="type">
+				<option value="1">Letters (Stamped)</option>
+				<option value="2">Letters (Metered)</option>
+				<option value="3">Large Envelopes (Flats)</option>
+				<option value="4">First-Class Package Service—Retail</option>
+			</select>
+		</div>
+		<input type="submit" name="submit">
+	</form>
+</body>
+</html>
